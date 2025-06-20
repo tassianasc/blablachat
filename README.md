@@ -1,6 +1,7 @@
 # 🚀 BlaBlaChat: Um Aplicativo de Mensagens Híbrido com React Native e Firebase
 
 ![BlaBlaChat Logo](./assets/blablachat.png) 
+
 _Um aplicativo de mensagens moderno e interativo, desenvolvido para o trabalho final da disciplina de Laboratório de Desenvolvimento de Aplicativos Híbridos._
 
 Bem-vindo ao **BlaBlaChat**! Este projeto é a culminação de um trabalho de desenvolvimento de aplicativo de mensagens, construído com **React Native** para o frontend e **Firebase Realtime Database** para um backend em tempo real. Nosso objetivo foi aprimorar um sistema existente, introduzindo funcionalidades avançadas de comunicação e demonstrando proficiência em desenvolvimento híbrido.
