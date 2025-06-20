@@ -112,21 +112,13 @@ Aqui estão algumas capturas de tela do BlaBlaChat em ação, demonstrando as fu
 
 ### 📸 Galeria de Telas
 
-<a href="./assets/screenshots/Screenshot_185.png" target="_blank">
-  <img src="./assets/screenshots/Screenshot_185.png" width="200"/>
-</a>
-<a href="./assets/screenshots/Screenshot_186.png" target="_blank">
-  <img src="./assets/screenshots/Screenshot_186.png" width="200"/>
-</a>
-<a href="./assets/screenshots/Screenshot_184.png" target="_blank">
-  <img src="./assets/screenshots/Screenshot_184.png" width="200"/>
-</a>
-<a href="./assets/screenshots/Screenshot_187.jpg" target="_blank">
-  <img src="./assets/screenshots/Screenshot_187.jpg" width="200"/>
-</a>
-<a href="./assets/screenshots/Screenshot_188.jpg" target="_blank">
-  <img src="./assets/screenshots/Screenshot_188.jpg" width="200"/>
-</a>
+### 📸 Galeria de Telas
+
+- [🖼️ Tela de Login - Android - Modo Claro](./assets/screenshots/Screenshot_185.png)
+- [💬 Tela de Chat - Modo Claro](./assets/screenshots/Screenshot_186.png)
+- [🌙 Tela de Chat - Modo Escuro](./assets/screenshots/Screenshot_184.png)
+- [❌ Tela de Login com Credenciais Erradas](./assets/screenshots/Screenshot_187.jpg)
+- [✅ Tela de Login de Cadastro com Sucesso](./assets/screenshots/Screenshot_188.jpg)
 
 ---
 ### 🎬 Vídeo Demonstrativo
