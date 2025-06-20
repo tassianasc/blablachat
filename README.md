@@ -159,3 +159,19 @@ Para testar o BlaBlaChat em seu ambiente de desenvolvimento, siga os passos abai
 ---
 
 ## 📂 Estrutura do Projeto
+whatsapp-firebase/
+├── assets/                  # Contém o logotipo da aplicação e outros recursos visuais (ícones, splash screens).
+│   ├── blablachat.png       # Logotipo principal do app.
+│   ├── icon.png
+│   ├── splash-icon.png
+│   └── ...
+├── components/              # Contém os principais componentes React que compõem as telas do aplicativo.
+│   ├── ContactsScreen.js    # Tela para listar usuários e iniciar novas conversas.
+│   ├── Login.js             # Tela de autenticação de usuários (login e cadastro).
+│   └── Mensagens.js         # Tela principal de chat, onde as mensagens são exibidas e enviadas.
+├── config/                  # Contém arquivos de configuração globais.
+│   └── Firebase.js          # Configurações de inicialização do SDK do Firebase.
+├── App.js                   # Componente raiz da aplicação, gerencia o estado global (navegação, temas) e renderiza as telas principais.
+├── app.json                 # Arquivo de configuração do Expo para o aplicativo (nome, ícone, splash screen, etc.).
+├── package.json             # Lista de dependências do projeto e scripts.
+└── README.md                # Este arquivo de documentação.
