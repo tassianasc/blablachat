@@ -1,10 +1,22 @@
 # 🚀 BlaBlaChat: Um Aplicativo de Mensagens Híbrido com React Native e Firebase
 
 ![BlaBlaChat Logo](./assets/blablachat.png) 
-
 _Um aplicativo de mensagens moderno e interativo, desenvolvido para o trabalho final da disciplina de Laboratório de Desenvolvimento de Aplicativos Híbridos._
 
 Bem-vindo ao **BlaBlaChat**! Este projeto é a culminação de um trabalho de desenvolvimento de aplicativo de mensagens, construído com **React Native** para o frontend e **Firebase Realtime Database** para um backend em tempo real. Nosso objetivo foi aprimorar um sistema existente, introduzindo funcionalidades avançadas de comunicação e demonstrando proficiência em desenvolvimento híbrido.
+
+---
+
+## 📚 Sumário
+
+* [👥 Equipe de Desenvolvimento](#equipe-de-desenvolvimento)
+* [🎯 Objetivos Gerais do Projeto](#objetivos-gerais-do-projeto)
+* [🛠️ Base do Projeto e Tecnologias](#base-do-projeto-e-tecnologias)
+* [✨ Funcionalidades Implementadas](#funcionalidades-implementadas)
+    * [Funcionalidades Obrigatórias](#funcionalidades-obrigatorias)
+    * [🌟 Componente Criativo (Diferencial Obrigatório)](#componente-criativo-diferencial-obrigatorio)
+* [🚀 Como Rodar o Projeto](#como-rodar-o-projeto)
+* [📂 Estrutura do Projeto](#estrutura-do-projeto)
 
 ---
 
@@ -29,7 +41,7 @@ Durante o desenvolvimento do BlaBlaChat, focamos em atingir os seguintes objetiv
 1.  **Aprofundar Conhecimento Prático:** Consolidar a experiência em desenvolvimento de aplicativos híbridos com React Native, explorando suas capacidades e ecossistema.
 2.  **Dominar Firebase Realtime Database:** Adquirir proficiência na integração e utilização do Firebase Realtime Database, enfatizando persistência e sincronização de dados em tempo real para uma experiência de chat fluida.
 3.  **Exercitar Análise, Design e Implementação:** Aprimorar a capacidade de analisar requisitos, projetar soluções e implementar novas funcionalidades em um sistema de mensagens já existente.
-4.  **Promover Trabalho em Equipe:** Fortalcer a colaboração, divisão de tarefas e gestão de um mini-projeto de software em um ambiente de equipe.
+4.  **Promover Trabalho em Equipe:** Fortalecer a colaboração, divisão de tarefas e gestão de um mini-projeto de software em um ambiente de equipe.
 5.  **Estimular Criatividade e Inovação:** Incentivar a idealização e implementação de funcionalidades únicas que diferenciam nosso aplicativo.
 
 ---
@@ -60,7 +72,7 @@ A partir da base do projeto, o BlaBlaChat evoluiu para incluir as seguintes func
     * **Valorização:** Aprimora significativamente a legibilidade e a usabilidade do chat, permitindo ao usuário identificar rapidamente suas próprias contribuições na conversa.
 
 3.  **Envio de Arquivos (Imagens e Documentos)**
-    * **Implementação:** O BlaBlaChat permite o compartilhamento de arquivos diretamente na conversa. Utilizamos `expo-image-picker` e `expo-document-picker` para a seleção de mídias e documentos do dispositivo. Os arquivos são eficientemente convertidos para o formato Base64 para armazenamento no Firebase Realtime Database. Na interface, imagens são exibidas como miniaturas clicáveis (abrindo um modal de visualização em tela cheia), e documentos (como PDFs) aparecem como um link com um ícone de arquivo, permitindo sua abertura em visualizadores externos.
+    * **Implementação:** O BlaBlaChat permite o compartilhamento de arquivos diretamente na conversa. Utilizamos `expo-image-picker` e `expo-document-picker` para a seleção de mídias e documentos do dispositivo. Os arquivos são eficientemente convertidos para o formato Base64 para armazenamento no Firebase Realtime Database. Na interface, imagens são exibidas como miniaturas clicáveis (abrindo um modal de visualização em tela cheia), e documentos (como PDFs) aparecem como um link com um ícone de arquivo, permitindo que o usuário os abra em visualizadores externos.
     * **Valorização:** Expande a capacidade de comunicação para além do texto, facilitando o compartilhamento de informações ricas e integrando-se perfeitamente às funcionalidades nativas do dispositivo.
 
 4.  **Confirmação de Visualização de Mensagem**
@@ -113,7 +125,7 @@ Para testar o BlaBlaChat em seu ambiente de desenvolvimento, siga os passos abai
 3.  **Configurações do Firebase:**
     * Crie um projeto no [Firebase Console](https://console.firebase.google.com/).
     * Crie um **Realtime Database** para o projeto.
-    * Vá para "Configurações do projeto" (ícone de engrenagem) > "Suas aplicativos" > "Adicionar aplicativo" (selecione a opção **Web** `</>`). Copie as credenciais de configuração.
+    * Vá para "Configurações do projeto" (ícone de engrenagem) > "Seus aplicativos" > "Adicionar aplicativo" (selecione a opção **Web** `</>`). Copie as credenciais de configuração.
     * Crie ou atualize o arquivo `config/Firebase.js` com suas credenciais:
         ```javascript
         import firebase from 'firebase/app';
@@ -160,19 +172,3 @@ Para testar o BlaBlaChat em seu ambiente de desenvolvimento, siga os passos abai
 ---
 
 ## 📂 Estrutura do Projeto
-whatsapp-firebase/
-├── assets/                  # Contém o logotipo da aplicação e outros recursos visuais (ícones, splash screens).
-│   ├── blablachat.png       # Logotipo principal do app.
-│   ├── icon.png
-│   ├── splash-icon.png
-│   └── ...
-├── components/              # Contém os principais componentes React que compõem as telas do aplicativo.
-│   ├── ContactsScreen.js    # Tela para listar usuários e iniciar novas conversas.
-│   ├── Login.js             # Tela de autenticação de usuários (login e cadastro).
-│   └── Mensagens.js         # Tela principal de chat, onde as mensagens são exibidas e enviadas.
-├── config/                  # Contém arquivos de configuração globais.
-│   └── Firebase.js          # Configurações de inicialização do SDK do Firebase.
-├── App.js                   # Componente raiz da aplicação, gerencia o estado global (navegação, temas) e renderiza as telas principais.
-├── app.json                 # Arquivo de configuração do Expo para o aplicativo (nome, ícone, splash screen, etc.).
-├── package.json             # Lista de dependências do projeto e scripts.
-└── README.md                # Este arquivo de documentação.
