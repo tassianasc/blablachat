@@ -191,6 +191,7 @@ Este projeto foi desenvolvido e prototipado principalmente na plataforma **Expo 
 ---
 
 ## 📂 Estrutura do Projeto
+
 whatsapp-firebase/
 ├── assets/                  # Contém o logotipo da aplicação e outros recursos visuais (ícones, splash screens).
 │   ├── blablachat.png       # Logotipo principal do app.
