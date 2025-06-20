@@ -138,6 +138,7 @@ Aqui estão algumas capturas de tela do BlaBlaChat em ação, demonstrando as fu
   <img src="./assets/screenshots/Screenshot_188.png" width="200"/>
 </a>
 ---
+
 ### 🎬 Vídeo Demonstrativo
 
 [▶️ Clique aqui para assistir ao vídeo demonstrativo](https://github.com/user-attachments/assets/4868cd6e-81cb-4d49-b632-6e978c170d98)
