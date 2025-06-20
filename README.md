@@ -105,14 +105,9 @@ Nossa equipe foi além das funcionalidades essenciais, incorporando elementos in
     * **Inovação:** Proporciona um senso de presença e imediatismo à conversa, informando o usuário sobre a disponibilidade de seu contato e tornando a interação mais dinâmica e engajadora.
 
 ---
-
-## 📸 Galeria de Telas
-
+### 📸 Galeria de Telas
 Aqui estão algumas capturas de tela do BlaBlaChat em ação, demonstrando as funcionalidades e a interface em diferentes modos:
 
-### 📸 Galeria de Telas
-
-### 📸 Galeria de Telas
 <p><strong>🖼️ Tela de Login - Modo Claro</strong></p>
 <a href="./assets/screenshots/Screenshot_185.png" target="_blank">
   <img src="./assets/screenshots/Screenshot_185.png" width="200"/>
