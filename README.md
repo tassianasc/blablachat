@@ -18,6 +18,7 @@ Nosso objetivo foi aprimorar um sistema existente, introduzindo funcionalidades 
 * [✨ Funcionalidades Implementadas](#funcionalidades-implementadas)
     * [Funcionalidades Obrigatórias](#funcionalidades-obrigatorias)
     * [🌟 Componente Criativo (Diferencial Obrigatório)](#componente-criativo-diferencial-obrigatorio)
+* [📸 Galeria de Telas](#galeria-de-telas)
 * [🚀 Como Rodar o Projeto](#como-rodar-o-projeto)
 * [📂 Estrutura do Projeto](#estrutura-do-projeto)
 
@@ -112,6 +113,21 @@ Nossa equipe foi além das funcionalidades essenciais, incorporando elementos in
 
 ---
 
+## 📸 Galeria de Telas
+
+Aqui estão algumas capturas de tela do BlaBlaChat em ação, demonstrando as funcionalidades e a interface em diferentes modos:
+
+### Tela de Chat (Modo Claro)
+![Tela de Chat - Modo Claro](./assets/screenshots/Screenshot_183.png)
+
+### Tela de Chat (Modo Escuro)
+![Tela de Chat - Modo Escuro](./assets/screenshots/Screenshot_184.png)
+
+### Tela de Login (Android - Modo Claro)
+![Tela de Login - Android - Modo Claro](./assets/screenshots/Screenshot_185.png)
+
+---
+
 ## 🚀 Como Rodar o Projeto
 
 Este projeto foi desenvolvido e prototipado principalmente na plataforma **Expo Snack** (`https://snack.expo.dev/`), o que facilitou o desenvolvimento rápido e os testes iniciais. Para testar o BlaBlaChat em seu ambiente de desenvolvimento local, siga os passos abaixo:
@@ -180,7 +196,10 @@ whatsapp-firebase/
 │   ├── blablachat.png       # Logotipo principal do app.
 │   ├── icon.png
 │   ├── splash-icon.png
-│   └── ...
+│   └── screenshots/         # Capturas de tela do aplicativo para documentação.
+│       ├── Screenshot_183.png
+│       ├── Screenshot_184.png
+│       └── Screenshot_185.png
 ├── components/              # Contém os principais componentes React que compõem as telas do aplicativo.
 │   ├── ContactsScreen.js    # Tela para listar usuários e iniciar novas conversas.
 │   ├── Login.js             # Tela de autenticação de usuários (login e cadastro).
