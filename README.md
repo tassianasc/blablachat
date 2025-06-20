@@ -133,6 +133,10 @@ Aqui estão algumas capturas de tela do BlaBlaChat em ação, demonstrando as fu
   <img src="./assets/screenshots/Screenshot_188.jpg" width="200"/>
 </a>
 
+<p><strong>📄 Tela - Envio de PDF</strong></p>
+<a href="./assets/screenshots/Screenshot_188.png" target="_blank">
+  <img src="./assets/screenshots/Screenshot_188.png" width="200"/>
+</a>
 ---
 ### 🎬 Vídeo Demonstrativo
 
