@@ -19,7 +19,6 @@ Nosso objetivo foi aprimorar um sistema existente, introduzindo funcionalidades 
   - [🎬 Vídeo Demonstrativo](#-vídeo-demonstrativo)  
 - [🚀 Como Rodar o Projeto](#-como-rodar-o-projeto)  
 - [📂 Estrutura do Projeto](#-estrutura-do-projeto)
-
 ---
 
 ## 👥 Equipe de Desenvolvimento
@@ -125,13 +124,11 @@ Aqui estão algumas capturas de tela do BlaBlaChat em ação, demonstrando as fu
 
 ### Tela de Login de Cadastro com Sucesso
 ![Screenshot_188](./assets/screenshots/Screenshot_188.jpg)
-
 ---
-### Vídeo demonstrativo
-https://github.com/user-attachments/assets/4868cd6e-81cb-4d49-b632-6e978c170d98
+### 🎬 Vídeo Demonstrativo
 
-
-
+[▶️ Clique aqui para assistir ao vídeo demonstrativo](https://github.com/user-attachments/assets/4868cd6e-81cb-4d49-b632-6e978c170d98)
+---
 ## 🚀 Como Rodar o Projeto
 
 Este projeto foi desenvolvido e prototipado principalmente na plataforma **Expo Snack** (`https://snack.expo.dev/`), o que facilitou o desenvolvimento rápido e os testes iniciais. Para testar o BlaBlaChat em seu ambiente de desenvolvimento local, siga os passos abaixo:
