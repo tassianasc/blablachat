@@ -1,0 +1,88 @@
+{
+  "login": {
+    "-OQzLF0-YMtSU-xgjPA8": { "username": "12", "senha": "12" },
+    "-OR45rWo_YwlkPxMfKa": { "username": "Sidney", "senha": "123" },
+    "-ORLn7XRkdErCPbN5GQ5": { "username": "usuario1", "senha": "123" },
+    "-OR_yjWm_npq9HPRKDM2": { "username": "botafogo", "senha": "123" }
+  },
+
+  "users": {
+    "12": { "username": "12" },
+    "Sidney": { "username": "Sidney" },
+    "usuario1": { "username": "usuario1" },
+    "botafogo": { "username": "botafogo" }
+  },
+
+  "chats": {
+    "12_botafogo": {
+      "participants": { "12": true, "botafogo": true },
+      "lastMessageText": "E aí 12!",
+      "lastMessageTimestamp": 1748690329000
+    },
+    "Sidney_usuario1": {
+      "participants": { "Sidney": true, "usuario1": true },
+      "lastMessageText": "Olá Sidney, tudo bem?",
+      "lastMessageTimestamp": 1748690328851
+    }
+  },
+
+  "messages": {
+    "12_botafogo": {
+      "msg_1": {
+        "from": "botafogo",
+        "to": "12",
+        "text": "E aí 12!",
+        "timestamp": 1748690329000,
+        "type": "text",
+        "read": false,
+        "edited": false,
+        "deleted": false
+      }
+    },
+
+    "Sidney_usuario1": {
+      "msg_1": {
+        "from": "usuario1",
+        "to": "Sidney",
+        "text": "Olá Sidney, tudo bem?",
+        "timestamp": 1748690328851,
+        "type": "text",
+        "read": false,
+        "edited": false,
+        "deleted": false
+      },
+      "msg_2": {
+        "from": "Sidney",
+        "to": "usuario1",
+        "text": "Tudo sim, e você?",
+        "timestamp": 1748690328900,
+        "type": "text",
+        "read": false,
+        "edited": false,
+        "deleted": false
+      },
+      "msg_3_img": {
+        "from": "usuario1",
+        "to": "Sidney",
+        "type": "image",
+        "fileUrl": "https://firebasestorage.googleapis.com/v0/b/your-app.appspot.com/o/chat_files/images/minha_foto.jpg?alt=media",
+        "fileName": "minha_foto.jpg",
+        "timestamp": 1748690329100,
+        "read": false,
+        "edited": false,
+        "deleted": false
+      },
+      "msg_4_pdf": {
+        "from": "Sidney",
+        "to": "usuario1",
+        "type": "pdf",
+        "fileUrl": "https://firebasestorage.googleapis.com/v0/b/your-app.appspot.com/o/chat_files/pdfs/documento_importante.pdf?alt=media",
+        "fileName": "documento_importante.pdf",
+        "timestamp": 1748690329200,
+        "read": false,
+        "edited": false,
+        "deleted": false
+      }
+    }
+  }
+}
