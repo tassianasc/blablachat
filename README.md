@@ -30,7 +30,8 @@ Nosso objetivo foi aprimorar um sistema existente, introduzindo funcionalidades 
 | Tamyres Lopes de Faria Silva     | 202211177   |
 
 **Instituição:** Universidade de Vassouras - Campus Maricá  
-**Matéria:** Laboratório de Desenvolvimento de Aplicativos Híbridos  
+**Matéria:** Laboratório de Desenvolvimento de Aplicativos Híbridos
+**Professor:** Sidney Loyola
 **Trabalho:** Evolução de Aplicativo de Mensagens com React Native e Firebase
 
 ---
