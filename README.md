@@ -4,7 +4,9 @@
 
 _Um aplicativo de mensagens moderno e interativo, desenvolvido para o trabalho final da disciplina de Laboratório de Desenvolvimento de Aplicativos Híbridos._
 
-Bem-vindo ao **BlaBlaChat**! Este projeto é a culminação de um trabalho de desenvolvimento de aplicativo de mensagens, construído com **React Native** para o frontend e **Firebase Realtime Database** para um backend em tempo real. Nosso objetivo foi aprimorar um sistema existente, introduzindo funcionalidades avançadas de comunicação e demonstrando proficiência em desenvolvimento híbrido.
+Bem-vindo ao **BlaBlaChat**! Este projeto é a culminação de um trabalho de desenvolvimento de aplicativo de mensagens, construído com **React Native** para o frontend e **Firebase Realtime Database** para um backend em tempo real. O desenvolvimento inicial e a prototipagem foram realizados utilizando a plataforma **Expo Snack**, facilitando a colaboração e o teste rápido.
+
+Nosso objetivo foi aprimorar um sistema existente, introduzindo funcionalidades avançadas de comunicação e demonstrando proficiência em desenvolvimento híbrido.
 
 ---
 
@@ -112,7 +114,7 @@ Nossa equipe foi além das funcionalidades essenciais, incorporando elementos in
 
 ## 🚀 Como Rodar o Projeto
 
-Para testar o BlaBlaChat em seu ambiente de desenvolvimento, siga os passos abaixo:
+Este projeto foi desenvolvido e prototipado principalmente na plataforma **Expo Snack** (`https://snack.expo.dev/`), o que facilitou o desenvolvimento rápido e os testes iniciais. Para testar o BlaBlaChat em seu ambiente de desenvolvimento local, siga os passos abaixo:
 
 1.  **Clone o Repositório:**
     ```bash
