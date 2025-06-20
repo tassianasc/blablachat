@@ -127,6 +127,10 @@ Aqui estão algumas capturas de tela do BlaBlaChat em ação, demonstrando as fu
 
 ---
 
+https://github.com/user-attachments/assets/4868cd6e-81cb-4d49-b632-6e978c170d98
+
+
+
 ## 🚀 Como Rodar o Projeto
 
 Este projeto foi desenvolvido e prototipado principalmente na plataforma **Expo Snack** (`https://snack.expo.dev/`), o que facilitou o desenvolvimento rápido e os testes iniciais. Para testar o BlaBlaChat em seu ambiente de desenvolvimento local, siga os passos abaixo:
