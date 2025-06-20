@@ -1,8 +1,10 @@
 # 🚀 BlaBlaChat: Um Aplicativo de Mensagens Híbrido com React Native e Firebase
 ![BlaBlaChat Logo](./assets/blablachat.png)
 
-
 _Um aplicativo de mensagens moderno e interativo, desenvolvido para o trabalho final da disciplina de Laboratório de Desenvolvimento de Aplicativos Híbridos._
+Bem-vindo ao **BlaBlaChat**! Este projeto é a culminação de um trabalho de desenvolvimento de aplicativo de mensagens, construído com **React Native** para o frontend e **Firebase Realtime Database** para um backend em tempo real. O desenvolvimento inicial e a prototipagem foram realizados utilizando a plataforma **Expo Snack**, facilitando a colaboração e o teste rápido.
+
+Nosso objetivo foi aprimorar um sistema existente, introduzindo funcionalidades avançadas de comunicação e demonstrando proficiência em desenvolvimento híbrido.
 
 ---
 
@@ -55,27 +57,59 @@ Durante o desenvolvimento do BlaBlaChat, focamos em atingir os seguintes objetiv
 
 ---
 
-## ✨ Funcionalidades Implementadas
+A partir da base do projeto, o BlaBlaChat evoluiu para incluir as seguintes funcionalidades obrigatórias e diferenciais, proporcionando uma experiência de usuário rica e intuitiva. **Todos os pontos abaixo foram atendidos com sucesso!**
 
 ### Funcionalidades Obrigatórias
 
-1. **Conversas Particulares**  
-2. **Destaque Visual para Mensagens Próprias**  
-3. **Envio de Arquivos (Imagens e Documentos)**  
-4. **Confirmação de Visualização de Mensagem**  
-5. **Exibição da Hora de Envio da Mensagem**  
-6. **Criação e Integração de Logotipo**  
-7. **Edição de Mensagem Enviada**  
+1.  **Conversas Particulares (Mensagens com Destinatário Específico)**
+    * **Implementação:** A lógica foi cuidadosamente modificada para permitir que os usuários iniciem e troquem mensagens em conversas individuais. Ao selecionar um contato na `ContactsScreen`, o aplicativo gera um `chatId` único e consistente (baseado na ordem alfabética dos nomes dos participantes). Este `chatId` é crucial para gerenciar e exibir mensagens específicas daquela conversa no `Mensagens.js`, garantindo que a comunicação seja direcionada corretamente.
+    * **Valorização:** Essencial para a privacidade e organização, essa funcionalidade permite uma experiência de chat autêntica, onde cada conversa é isolada e sincronizada em tempo real via Firebase.
+
+2.  **Destaque Visual para Mensagens Próprias**
+    * **Implementação:** Para uma interface intuitiva, as mensagens enviadas pelo usuário logado são visivelmente distintas. Elas são alinhadas à direita da tela e possuem uma cor de fundo específica (`myMessageBackground`), contrastando com as mensagens recebidas, que são alinhadas à esquerda e usam outra cor de fundo (`otherMessageBackground`). Essa distinção é controlada dinamicamente no `Mensagens.js` com base no remetente da mensagem e no tema ativo.
+    * **Valorização:** Aprimora significativamente a legibilidade e a usabilidade do chat, permitindo ao usuário identificar rapidamente suas próprias contribuições na conversa.
+
+3.  **Envio de Arquivos (Imagens e Documentos)**
+    * **Implementação:** O BlaBlaChat permite o compartilhamento de arquivos diretamente na conversa. Utilizamos `expo-image-picker` e `expo-document-picker` para a seleção de mídias e documentos do dispositivo. Os arquivos são eficientemente convertidos para o formato Base64 para armazenamento no Firebase Realtime Database. Na interface, imagens são exibidas como miniaturas clicáveis (abrindo um modal de visualização em tela cheia), e documentos (como PDFs) aparecem como um link com um ícone de arquivo, permitindo que o usuário os abra em visualizadores externos.
+    * **Valorização:** Expande a capacidade de comunicação para além do texto, facilitando o compartilhamento de informações ricas e integrando-se perfeitamente às funcionalidades nativas do dispositivo.
+
+4.  **Confirmação de Visualização de Mensagem**
+    * **Implementação:** Foi integrado um sistema de "tick" para indicar o status da mensagem. Uma marca de seleção única (✔) aparece para mensagens enviadas. Quando a mensagem é visualizada pelo destinatário, a marca de seleção se transforma em **dois ticks azuis (✔✔)**. O status é atualizado em tempo real: um pequeno update no Firebase é disparado ao ser lida, e o remetente vê a confirmação visual instantaneamente.
+    * **Valorização:** Oferece um feedback crucial, claro e visualmente intuitivo ao remetente sobre a entrega e leitura de suas mensagens, aumentando a confiabilidade, a transparência e a usabilidade da comunicação.
+
+5.  **Exibição da Hora de Envio da Mensagem**
+    * **Implementação:** Cada balão de mensagem exibe o horário exato em que a mensagem foi enviada. O `timestamp` armazenado no Firebase é formatado e exibido de forma discreta no rodapé de cada mensagem no `Mensagens.js`.
+    * **Valorização:** Proporciona um contexto temporal essencial para as conversas, permitindo um acompanhamento claro e preciso do fluxo da comunicação.
+
+6.  **Criação e Integração de Logotipo para a Aplicação**
+    * **Implementação:** Um logotipo original e cativante para o BlaBlaChat foi desenvolvido e integrado nas telas de Login e Contatos (`App.js`), garantindo uma identidade visual coesa e profissional ao aplicativo.
+    * **Valorização:** Reforça a marca do aplicativo, tornando-o mais memorável e visualmente atraente para o usuário.
+
+7.  **Edição de Mensagem Enviada**
+    * **Implementação:** O usuário possui a capacidade de editar o conteúdo de mensagens de texto que ele já enviou. Ao interagir com sua própria mensagem, uma opção de edição aparece. Após a edição e o reenvio, o conteúdo é atualizado no Firebase, e a mensagem exibe um pequeno indicador "(editado)", mantendo a transparência na conversa.
+    * **Valorização:** Uma funcionalidade avançada que confere maior controle ao usuário sobre suas comunicações, possibilitando correções rápidas e melhorando a qualidade geral das mensagens.
 
 ### 🌟 Componente Criativo (Diferencial Obrigatório)
 
-- **Reações a Mensagens com Emojis**
-- **Temas Personalizáveis (Claro/Escuro)**
-- **Status Online/Offline em Tempo Real**
+Nossa equipe foi além das funcionalidades essenciais, incorporando elementos inovadores que tornam o BlaBlaChat mais expressivo, acessível e engajador:
+
+* **Reações a Mensagens (Emojis)**
+    * **Implementação:** Integramos um seletor de emojis na caixa de entrada de mensagens. Um modal intuitivo com uma grade de emojis populares permite que o usuário adicione rapidamente expressividade às suas mensagens de texto, sem a necessidade de teclado de terceiros.
+    * **Inovação:** Enriquece a comunicação não-verbal, permitindo que os usuários transmitam emoções e reações de forma rápida e divertida.
+
+* **Temas Personalizáveis (Modo Claro/Escuro)**
+    * **Implementação:** O BlaBlaChat oferece uma experiência visual flexível com a opção de alternar entre um tema claro e um tema escuro completo. As paletas de cores são definidas centralizadamente (`LightTheme`, `DarkThemeCustom` em `App.js`) utilizando o sistema de theming do `react-native-paper`. Um botão de alternância (com ícones de sol/lua via `MaterialCommunityIcons`) está disponível nas telas principais, permitindo a personalização instantânea do visual do aplicativo.
+    * **Inovação:** Aumenta a acessibilidade do aplicativo em diferentes condições de iluminação e oferece uma personalização estética valorizada pelos usuários modernos.
+
+* **Status Online/Offline do Contato em Tempo Real**
+    * **Implementação:** Na tela de chat, exibimos o status "Online" ou "Offline" do contato em tempo real, acompanhado de um indicador visual (círculo verde para online, cinza para offline) ao lado do nome do usuário. Isso é alcançado monitorando a coleção `usersStatus` no Firebase, que é atualizada automaticamente quando os usuários se conectam ou desconectam.
+    * **Inovação:** Proporciona um senso de presença e imediatismo à conversa, informando o usuário sobre a disponibilidade de seu contato e tornando a interação mais dinâmica e engajadora.
 
 ---
 
 ## 📸 Galeria de Telas
+
+Aqui estão algumas capturas de tela do BlaBlaChat em ação, demonstrando as funcionalidades e a interface em diferentes modos:
 
 ### Tela de Login - Android - Modo Claro
 ![Screenshot_185](./assets/screenshots/Screenshot_185.png)
