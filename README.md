@@ -79,8 +79,8 @@ A partir da base do projeto, o BlaBlaChat evoluiu para incluir as seguintes func
     * **Valorização:** Expande a capacidade de comunicação para além do texto, facilitando o compartilhamento de informações ricas e integrando-se perfeitamente às funcionalidades nativas do dispositivo.
 
 4.  **Confirmação de Visualização de Mensagem**
-    * **Implementação:** Foi integrado um sistema de "tick" para indicar o status da mensagem. Uma marca de seleção única (✔) aparece para mensagens enviadas, e uma marca de seleção dupla (✔✔) indica que a mensagem foi visualizada pelo destinatário. O status é atualizado em tempo real: quando uma mensagem é lida, um pequeno update no Firebase é disparado, e o remetente vê a confirmação instantaneamente.
-    * **Valorização:** Oferece feedback crucial ao remetente sobre a entrega e leitura de suas mensagens, aumentando a confiabilidade e transparência da comunicação.
+    * **Implementação:** Foi integrado um sistema de "tick" para indicar o status da mensagem. Uma marca de seleção única (✔) aparece para mensagens enviadas. Quando a mensagem é visualizada pelo destinatário, a marca de seleção se transforma em **dois ticks azuis (✔✔)**. O status é atualizado em tempo real: um pequeno update no Firebase é disparado ao ser lida, e o remetente vê a confirmação visual instantaneamente.
+    * **Valorização:** Oferece um feedback crucial, claro e visualmente intuitivo ao remetente sobre a entrega e leitura de suas mensagens, aumentando a confiabilidade, a transparência e a usabilidade da comunicação.
 
 5.  **Exibição da Hora de Envio da Mensagem**
     * **Implementação:** Cada balão de mensagem exibe o horário exato em que a mensagem foi enviada. O `timestamp` armazenado no Firebase é formatado e exibido de forma discreta no rodapé de cada mensagem no `Mensagens.js`.
@@ -175,3 +175,19 @@ Este projeto foi desenvolvido e prototipado principalmente na plataforma **Expo 
 ---
 
 ## 📂 Estrutura do Projeto
+whatsapp-firebase/
+├── assets/                  # Contém o logotipo da aplicação e outros recursos visuais (ícones, splash screens).
+│   ├── blablachat.png       # Logotipo principal do app.
+│   ├── icon.png
+│   ├── splash-icon.png
+│   └── ...
+├── components/              # Contém os principais componentes React que compõem as telas do aplicativo.
+│   ├── ContactsScreen.js    # Tela para listar usuários e iniciar novas conversas.
+│   ├── Login.js             # Tela de autenticação de usuários (login e cadastro).
+│   └── Mensagens.js         # Tela principal de chat, onde as mensagens são exibidas e enviadas.
+├── config/                  # Contém arquivos de configuração globais.
+│   └── Firebase.js          # Configurações de inicialização do SDK do Firebase.
+├── App.js                   # Componente raiz da aplicação, gerencia o estado global (navegação, temas) e renderiza as telas principais.
+├── app.json                 # Arquivo de configuração do Expo para o aplicativo (nome, ícone, splash screen, etc.).
+├── package.json             # Lista de dependências do projeto e scripts.
+└── README.md                # Este arquivo de documentação.
