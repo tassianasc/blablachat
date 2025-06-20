@@ -110,20 +110,24 @@ Nossa equipe foi além das funcionalidades essenciais, incorporando elementos in
 
 Aqui estão algumas capturas de tela do BlaBlaChat em ação, demonstrando as funcionalidades e a interface em diferentes modos:
 
-### Tela de Login - Android - Modo Claro
-![Screenshot_185](./assets/screenshots/Screenshot_185.png)
+### 📸 Galeria de Telas
 
-### Tela de Chat - Modo Claro
-![Screenshot_186](./assets/screenshots/Screenshot_186.png)
+<a href="./assets/screenshots/Screenshot_185.png" target="_blank">
+  <img src="./assets/screenshots/Screenshot_185.png" width="200"/>
+</a>
+<a href="./assets/screenshots/Screenshot_186.png" target="_blank">
+  <img src="./assets/screenshots/Screenshot_186.png" width="200"/>
+</a>
+<a href="./assets/screenshots/Screenshot_184.png" target="_blank">
+  <img src="./assets/screenshots/Screenshot_184.png" width="200"/>
+</a>
+<a href="./assets/screenshots/Screenshot_187.jpg" target="_blank">
+  <img src="./assets/screenshots/Screenshot_187.jpg" width="200"/>
+</a>
+<a href="./assets/screenshots/Screenshot_188.jpg" target="_blank">
+  <img src="./assets/screenshots/Screenshot_188.jpg" width="200"/>
+</a>
 
-### Tela de Chat - Modo Escuro
-![Screenshot_184](./assets/screenshots/Screenshot_184.png)
-
-### Tela de Login com Credenciais Erradas
-![Screenshot_187](./assets/screenshots/Screenshot_187.jpg)
-
-### Tela de Login de Cadastro com Sucesso
-![Screenshot_188](./assets/screenshots/Screenshot_188.jpg)
 ---
 ### 🎬 Vídeo Demonstrativo
 
