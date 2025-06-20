@@ -10,13 +10,14 @@ Nosso objetivo foi aprimorar um sistema existente, introduzindo funcionalidades 
 
 ## 📚 Sumário
 
-- [👥 Equipe de Desenvolvimento](#-equipe-de-desenvolvimento)
-- [🎯 Objetivos Gerais do Projeto](#-objetivos-gerais-do-projeto)
-- [🛠️ Base do Projeto e Tecnologias](#️-base-do-projeto-e-tecnologias)
-- [Funcionalidades Obrigatórias](#funcionalidades-obrigatórias)
-  - [🌟 Componente Criativo (Diferencial Obrigatório)](#-componente-criativo-diferencial-obrigatório)
-- [📸 Galeria de Telas](#-galeria-de-telas)
-- [🚀 Como Rodar o Projeto](#-como-rodar-o-projeto)
+- [👥 Equipe de Desenvolvimento](#-equipe-de-desenvolvimento)  
+- [🎯 Objetivos Gerais do Projeto](#-objetivos-gerais-do-projeto)  
+- [🛠️ Base do Projeto e Tecnologias](#️-base-do-projeto-e-tecnologias)  
+- [Funcionalidades Obrigatórias](#funcionalidades-obrigatórias)  
+  - [🌟 Componente Criativo (Diferencial Obrigatório)](#-componente-criativo-diferencial-obrigatório)  
+- [📸 Galeria de Telas](#-galeria-de-telas)  
+  - [🎬 Vídeo Demonstrativo](#-vídeo-demonstrativo)  
+- [🚀 Como Rodar o Projeto](#-como-rodar-o-projeto)  
 - [📂 Estrutura do Projeto](#-estrutura-do-projeto)
 
 ---
@@ -126,7 +127,7 @@ Aqui estão algumas capturas de tela do BlaBlaChat em ação, demonstrando as fu
 ![Screenshot_188](./assets/screenshots/Screenshot_188.jpg)
 
 ---
-
+### Vídeo demonstrativo
 https://github.com/user-attachments/assets/4868cd6e-81cb-4d49-b632-6e978c170d98
 
 
