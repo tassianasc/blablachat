@@ -1,5 +1,4 @@
 # 🚀 BlaBlaChat: Um Aplicativo de Mensagens Híbrido com React Native e Firebase
-
 ![BlaBlaChat Logo](./assets/blablachat.png) 
 
 _Um aplicativo de mensagens moderno e interativo, desenvolvido para o trabalho final da disciplina de Laboratório de Desenvolvimento de Aplicativos Híbridos._
@@ -134,7 +133,7 @@ Este projeto foi desenvolvido e prototipado principalmente na plataforma **Expo 
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/loyoladesa/AplicativosHibridos2025.git](https://github.com/loyoladesa/AplicativosHibridos2025.git)
+    git clone https://github.com/loyoladesa/AplicativosHibridos2025.git
     cd AplicativosHibridos2025/whatsapp-firebase
     ```
 2.  **Instale as Dependências:**
@@ -192,6 +191,7 @@ Este projeto foi desenvolvido e prototipado principalmente na plataforma **Expo 
 
 ## 📂 Estrutura do Projeto
 
+```text
 whatsapp-firebase/
 ├── assets/                  # Contém o logotipo da aplicação e outros recursos visuais (ícones, splash screens).
 │   ├── blablachat.png       # Logotipo principal do app.
